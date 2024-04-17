@@ -1,0 +1,26 @@
+{
+  "name": "monde",
+  "version": "0.1.0",
+  "description": "A node app that monitors for file & directory changes in local storage.",
+  "main": "index.js",
+  "scripts": {
+    "pkg": "pkg .",
+    "setup": "bash setup.sh",
+    "start": "node index.js"
+  },
+  "bin": {
+    "monde": "index.js"
+  },
+  "pkg": {
+    "targets": [
+      "node18-linux"
+    ]
+  },
+  "keywords": [],
+  "author": "debinum",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "chokidar": "^3.6.0"
+  }
+}
